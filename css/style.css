@@ -1,0 +1,85 @@
+body {
+    background-image: url(../img/tile1.jpg) ;
+    background-repeat: no-repeat;
+    font: 18px Comic Sans,Comic Sans MS;
+    color:  #4169E1
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3em;
+    padding: 10px; 
+    text-shadow: 1px 1px #000000;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px; 
+    text-shadow: 1px 1px #000000;
+ }
+
+header,nav,footer,h2{
+    text-align: center;
+}
+
+nav>span{
+    border: 2px dotted #D2691E;
+    padding:  1px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #4169E1;
+}
+a:hover{
+    color: rgb(218, 165, 32);
+}
+
+ section{
+    padding:  5px;
+    margin: 50px;
+    border: 10px #008B8B;
+}
+
+th {
+    padding: 10px; 
+    border: 1px solid rgb(50, 250, 100);
+}
+
+td {
+    padding: 5px 7px;
+    border: 1px solid rgb(50, 250, 100);
+}
+
+img{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+table {
+    background:  radial-gradient(yellowgreen, rgb(50, 200, 150));
+    margin: auto;
+}
+
+footer>span{
+    padding: 1px 100px 10px 100px;
+}
+
+.biography{
+    border-style: solid dotted none dotted;
+}
+
+.career{
+    border-style: dashed double none double;
+}
+
+.scenario{
+    border-style: none groove none groove;
+}
+
+.photo{
+    border-style: ridge none ridge none
+}
+
